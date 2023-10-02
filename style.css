@@ -40,7 +40,7 @@ section{
     margin: auto;
 }
 .about, .services, .skills, .teams, .contact, footer{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
@@ -55,10 +55,10 @@ section .title{
     position: relative;
     text-align: center;
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 550;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 section .title::before{
     content: "";
@@ -92,7 +92,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #770737;
+    background: #960845;
 }
 .navbar .max-width{
     display: flex;
@@ -182,7 +182,7 @@ section .title::after{
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 .home .max-width{
   width: 100%;
@@ -263,9 +263,12 @@ section .title::after{
     color: #770737;
 }
 .about .about-content .right p{
+    line-height: 1.4;
+    font-size: 18px;
     text-align: justify;
 }
 .about .about-content .right a{
+    font-family: 'Inter', sans-serif;
     display: inline-block;
     background: #770737;
     color: #F2EFDE;
@@ -323,9 +326,13 @@ section .title::after{
     color: #ffffff;
 }
 .services .serv-content .card .text{
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.services .serv-content .card .text.p{
+    font-size: 15px;
+    line-height: 1.4;
 }
 
 /* skills section styling */
@@ -342,6 +349,8 @@ section .title::after{
     margin-bottom: 10px;
 }
 .skills .skills-content .left p{
+    line-height: 1.4;
+    font-size: 18px;
     text-align: justify;
 }
 .skills .skills-content .left a{
@@ -435,9 +444,13 @@ section .title::after{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.teams .carousel .card .text.p{
+    font-size: 18px;
+  
 }
 .teams .carousel .card img{
     height: 150px;
@@ -487,6 +500,8 @@ section .title::after{
     margin-bottom: 10px;
 }
 .contact .contact-content .left p{
+    font-size: 18px;
+    line-height: 1.4;
     text-align: justify;
 }
 .contact .contact-content .left .icons{
@@ -505,7 +520,7 @@ section .title::after{
     color: #623e8d;
 }
 .contact .contact-content .info .head{
-    font-weight: 500;
+    font-weight: 700;
 }
 .contact .contact-content .info .sub-title{
     color: #333;
