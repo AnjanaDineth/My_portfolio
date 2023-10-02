@@ -23,14 +23,14 @@
   .portfolio-section h2 {
     font-size: 28px;
     font-weight: 600;
-    color: rgb(196, 30, 58);
+    color: #ca3576;
     text-transform: uppercase;
   }
   .portfolio-menu {
     text-align: center;
   }
   .control {
-    background: rgb(196, 30, 58);
+    background: #770737;
     color: #fff;
     padding: 5px 10px;
     border: 1px solid #000000;
@@ -44,11 +44,11 @@
     transition: all 0.5s ease;
   }
   .control:hover {
-    background: #ff0000;
+    background: #ac094f;
   }
   .mixitup-control-active {
     color: #fff;
-    background: rgb(196, 30, 58);
+    background: #770737;
   }
   .fancybox-container button:focus {
     outline: 0;
@@ -108,15 +108,15 @@
   .portfolio-item:hover .portfolio-overlay::before {
     width: 80%;
     height: 80%;
-    border-top: 1px solid #eb0808;
-    border-right: 1px solid #eb0808;
+    border-top: 1px solid #770737;
+    border-right: 1px solid #770737;
     transition: width 0.1s ease 0.3s, height 0.1s ease 0.5s;
   }
   .portfolio-item:hover .portfolio-overlay::after {
     width: 80%;
     height: 80%;
-    border-bottom: 1px solid #eb0808;
-    border-left: 1px solid #eb0808;
+    border-bottom: 1px solid #770737;
+    border-left: 1px solid #770737;
     transition: width 0.1s ease 0.6s, height 0.1s ease 0.7s;
   }
   .portfolio-item li:hover .portfolio-overlay {
@@ -134,7 +134,7 @@
     height: 40px;
     width: 40px;
     border-radius: 20px;
-    background: #eb0808;
+    background: #96134c;
     margin: 0 5px;
     cursor: pointer;
     display: inline-block;
