@@ -397,13 +397,13 @@ section .title::after{
     background: #7851A9;
 }
 .skills-content .right .html::before{
-    width: 70%;
+    width: 80%;
 }
 .skills-content .right .css::before{
     width: 80%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 95%;
 }
 .skills-content .right .php::before{
     width: 70%;
@@ -412,7 +412,7 @@ section .title::after{
     width: 80%;
 }
 .skills-content .right .soft::before{
-    width: 60%;
+    width: 40%;
 }
 .skills-content .right .mark::before{
     width: 85%;
